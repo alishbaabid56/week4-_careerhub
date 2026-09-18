@@ -14,7 +14,7 @@ This video demonstrates the complete candidate workflow, including:
 - Cover letter and resume submission
 - Application tracking
 
-🔗 [Watch Candidate Demo]([YOUR_GOOGLE_DRIVE_LINK](https://drive.google.com/file/d/1_v87F2w9hz7hS6dL9vNe7c7Zprk9899R/view?usp=sharing))
+🔗 [Watch Candidate Demo](https://drive.google.com/file/d/1_v87F2w9hz7hS6dL9vNe7c7Zprk9899R/view?usp=sharing)
 
 ---
 
