@@ -379,6 +379,8 @@ Testing was performed throughout development.
 | Production build        | Application builds successfully      | Pass   |
 | Production deployment   | Live application loads successfully  | Pass   |
 
+Additional testing and QA evidence can be documented separately as the project testing checklist is expanded.
+
 ---
 
 ## 18. Build Validation
@@ -401,7 +403,7 @@ CareerHub was deployed using Vercel.
 
 ### Production URL
 
-https://week4-careerhub-rzcp.vercel.app/
+**https://week4-careerhub-rzcp.vercel.app/**
 
 ### Database
 
@@ -427,6 +429,8 @@ The project uses:
 * Controlled database operations
 
 Sensitive credentials are not intended to be committed to the public repository.
+
+**Important:** Demo/admin login credentials are kept separate from this public report. They should not be committed to `README.md`, `report.md`, or other publicly accessible documentation.
 
 ---
 
@@ -569,31 +573,48 @@ Add a larger automated test suite including:
 
 ## 26. Demo Evidence
 
-Role-based demonstrations are provided separately in the `videos/` directory.
+Role-based demonstrations are provided through the separate `videos.md` documentation file.
 
 ### Candidate Demo
 
-```text
-videos/candidate-demo.mp4
-```
+The candidate demonstration covers:
 
-The video demonstrates the candidate workflow from authentication through job discovery and application tracking.
+* Candidate login
+* Candidate dashboard
+* Job search
+* Job details
+* Job application
+* Cover letter/resume submission
+* Application tracking
+
+🔗 **[Watch Candidate Demo](./videos.md)**
 
 ### Employer Demo
 
-```text
-videos/employer-demo.mp4
-```
+The employer demonstration covers:
 
-The video demonstrates employer authentication, job management, and application management.
+* Employer login
+* Employer dashboard
+* Job creation
+* Job management
+* Job editing
+* Candidate applications
+* Application management
+
+🔗 **[Watch Employer Demo](./videos.md)**
 
 ### Admin Demo
 
-```text
-videos/admin-demo.mp4
-```
+The admin demonstration covers:
 
-The video demonstrates administrative access and platform management.
+* Admin login
+* Admin dashboard
+* Platform management
+* User/job/application administration
+
+🔗 **[Watch Admin Demo](./videos.md)**
+
+> All Google Drive demonstration links are maintained in [`videos.md`](./videos.md).
 
 ---
 
@@ -613,6 +634,7 @@ The final project submission contains:
 * Production deployment
 * `README.md`
 * `report.md`
+* `videos.md`
 * Demo videos
 * Testing/QA evidence
 
@@ -620,13 +642,17 @@ The final project submission contains:
 
 ## 28. Live Project
 
-**CareerHub Production Application**
+### CareerHub Production Application
 
 https://week4-careerhub-rzcp.vercel.app/
 
-**GitHub Repository**
+### GitHub Repository
 
 https://github.com/alishbaabid56/week4-_careerhub
+
+### Demo Videos
+
+[View CareerHub Demo Videos](./videos.md)
 
 ---
 
