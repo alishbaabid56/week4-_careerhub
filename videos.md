@@ -47,4 +47,4 @@ This video demonstrates:
 - Job management
 - Application/platform management
 
-🔗 [Watch Admin Demo](ADD_ADMIN_DRIVE_LINK)
+🔗 [Watch Admin Demo](https://drive.google.com/file/d/1ClPHd0up2jO9v_03MEp0DGHAjbTeh7UQ/view?usp=sharing)
