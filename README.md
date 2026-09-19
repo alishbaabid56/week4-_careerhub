@@ -2,7 +2,7 @@
 
 CareerHub is a production-style full-stack web application designed to connect candidates with employment and internship opportunities while providing employers with tools to create and manage job listings and applications.
 
-The project was developed as a final-week full-stack internship capstone with a focus on authentication, role-based access, database persistence, CRUD workflows, search, validation, responsive design, and deployment.
+The project was developed as a final-week full-stack internship capstone with a focus on authentication, role-based access, database persistence, CRUD workflows, search, validation, responsive design, error handling, testing, and production deployment.
 
 ## 🚀 Live Demo
 
@@ -13,7 +13,7 @@ https://week4-careerhub-rzcp.vercel.app/
 https://github.com/alishbaabid56/week4-_careerhub
 
 **Demo Videos:**
-See the [`videos/`](./videos) folder for role-based demonstrations.
+See [`videos.md`](./videos.md) for role-based demonstrations.
 
 ---
 
@@ -273,13 +273,9 @@ careerhub/
 ├── public/
 │   └── static assets
 │
-├── videos/
-│   ├── candidate-demo.mp4
-│   ├── employer-demo.mp4
-│   └── admin-demo.mp4
-│
 ├── README.md
 ├── report.md
+├── videos.md
 ├── package.json
 └── ...
 ```
@@ -288,7 +284,7 @@ careerhub/
 
 ## 🧪 Testing & Validation
 
-The application was tested during development through functional and build validation.
+The application was tested during development through functional, responsive, authentication, database, and production-build validation.
 
 ### Core Testing Areas
 
@@ -307,6 +303,7 @@ The application was tested during development through functional and build valid
 * Invalid input handling
 * Responsive layouts
 * Production build
+* Production deployment
 
 ### Build Validation
 
@@ -341,24 +338,25 @@ npm run build
 
 ## 🎥 Demo Videos
 
-Role-specific demonstrations are stored in the `videos/` directory.
+Complete role-based demonstrations are documented separately in [`videos.md`](./videos.md).
+
+The demo videos are hosted externally and linked through Google Drive rather than being stored directly in the GitHub repository.
 
 ### Candidate Demo
 
-`videos/candidate-demo.mp4`
-
 Demonstrates:
 
-* Candidate registration/login
+* Candidate login
 * Candidate dashboard
 * Job search
 * Job details
 * Applying for a job
+* Cover letter/resume submission
 * Application tracking
 
-### Employer Demo
+🔗 **[Watch Candidate Demo](./videos.md)**
 
-`videos/employer-demo.mp4`
+### Employer Demo
 
 Demonstrates:
 
@@ -366,12 +364,13 @@ Demonstrates:
 * Employer dashboard
 * Creating a job
 * Managing job listings
+* Editing job information
 * Viewing applications
 * Managing applications
 
-### Admin Demo
+🔗 **[Watch Employer Demo](./videos.md)**
 
-`videos/admin-demo.mp4`
+### Admin Demo
 
 Demonstrates:
 
@@ -380,11 +379,15 @@ Demonstrates:
 * Platform management
 * User/job/application oversight
 
+🔗 **[Watch Admin Demo](./videos.md)**
+
+> Google Drive links for all three demonstrations are maintained in `videos.md`.
+
 ---
 
 ## 📸 Screenshots
 
-Screenshots of the final application can be added here as the final submission evidence.
+Screenshots of the final application can be added here as final submission evidence.
 
 Recommended screenshots:
 
@@ -410,9 +413,10 @@ The application follows several security practices:
 * Sensitive environment variables are stored outside source control.
 * Authentication is handled through Better Auth.
 * Database access is handled through the server-side application.
-* Protected application areas use authentication/authorization checks.
+* Protected application areas use authentication and authorization checks.
 * Input validation is performed before processing user data.
 * Secrets and database credentials are not hard-coded into the frontend.
+* Sensitive credentials are not included in public project documentation.
 
 ---
 
@@ -475,6 +479,8 @@ https://week4-careerhub-rzcp.vercel.app/
 
 The application uses Neon PostgreSQL for persistent production database storage.
 
+Environment variables are configured through the deployment environment rather than committed to source control.
+
 ---
 
 ## 🎯 Project Goals
@@ -492,6 +498,7 @@ The main goals of CareerHub were to demonstrate:
 * Production deployment
 * Error handling
 * Professional project organization
+* Testing and QA
 
 ---
 
@@ -528,17 +535,29 @@ Possible future improvements include:
 
 ---
 
+## 📄 Project Documentation
+
+CareerHub includes separate documentation for the final submission:
+
+* [`README.md`](./README.md) — Project overview, setup, features, and technical information.
+* [`report.md`](./report.md) — Final project report covering objectives, architecture, implementation, testing, challenges, and results.
+* [`videos.md`](./videos.md) — Candidate, Employer, and Admin demo video links.
+
+---
+
 ## 👩‍💻 Developer
 
 **Alishba Abid**
 
 Full Stack Developer with AI
 
-GitHub:
+**GitHub:**
 https://github.com/alishbaabid56
 
 ---
 
 ## 📄 Internship Submission
 
-This project was developed as a final-week full-stack internship capstone demonstrating a complete production-style web application with authentication, database persistence, role-based access, CRUD workflows, validation, responsive UI, deployment, and documentation.
+This project was developed as a final-week full-stack internship capstone demonstrating a complete production-style web application with authentication, database persistence, role-based access, CRUD workflows, validation, responsive UI, testing, deployment, and professional documentation.
+
+The project demonstrates the complete development cycle from planning and implementation to testing and production deployment.
