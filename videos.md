@@ -31,7 +31,7 @@ This video demonstrates:
 - Viewing applications
 - Managing application status
 
-🔗 [Watch Employer Demo](ADD_EMPLOYER_DRIVE_LINK)
+🔗 [Watch Employer Demo](https://drive.google.com/file/d/1mRiiNyo7m-2z_bsG7c1J9U-5jSfO-VKB/view?usp=sharing)
 
 ---
 
